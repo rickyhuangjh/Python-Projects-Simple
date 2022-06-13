@@ -2,12 +2,6 @@ import pygame
 import os
 
 
-
-while running:
-  for event in pygame.event.get():
-    if event.type == pygame.QUIT:
-      running = False
-
 sample = [[1,2],[3,4]]
 
 def arrayPrint(arr):
